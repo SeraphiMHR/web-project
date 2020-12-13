@@ -2,6 +2,19 @@ body{
     position: relative;
     float: left;
     background: #42455a;
+    opacity:0;
+    transition: 1.5s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
 }
 
 .inputs{
