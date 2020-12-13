@@ -1,0 +1,124 @@
+body{
+    position: relative;
+    float: left;
+    background: #42455a;
+}
+
+.inputs{
+    position: absolute;
+    float: right;
+    right: 100px;
+    margin: 250px auto;
+    display: block;
+    list-style-type: none;
+    border: 2px solid transparent;
+    border-radius: 20%;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, rgba(0,172,255,1) 0%, rgba(54,136,225,1) 21%, rgba(137,74,214,1) 51%, rgba(255,0,112,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 300px;
+
+}
+
+.inputs ul li{
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+    width: 100%;
+}
+
+
+#canvas{
+    margin: 50px 500px;
+    display: block;
+    border: 2px solid transparent;
+    border-radius: 20%;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, rgba(0,172,255,1) 0%, rgba(54,136,225,1) 21%, rgba(137,74,214,1) 51%, rgba(255,0,112,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+#start-btn{
+    width:68%;
+    border: 1px solid transparent;
+    border-radius: 15%;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, rgba(0,172,255,1) 0%, rgba(54,136,225,1) 21%, rgba(137,74,214,1) 51%, rgba(255,0,112,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    color: white;
+    font: 24px bold sans-serif;
+}
+
+#start-btn:hover{
+   color: aqua;
+}
+#start-btn:focus{
+    color: limegreen;
+}
+.menu{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, rgba(0,172,255,1) 0%, rgba(54,136,225,1) 21%, rgba(137,74,214,1) 51%, rgba(255,0,112,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu li:hover{
+    color: aqua;
+}
+.menu li span{
+    color: aqua !important;
+}
+
+.menu li a{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+
+.menu li a:hover{
+    color: aqua;
+}
+
+.logo img{
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+/*.active{
+    color: aqua !important;
+}*/
+
+.about-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, rgba(0,172,255,1) 0%, rgba(54,136,225,1) 21%, rgba(137,74,214,1) 51%, rgba(255,0,112,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.about-btn span{
+    display: block;
+    padding: 8px 22px;
+}
