@@ -11,31 +11,31 @@
 
 </head>
 <body>
-<header>
-<div class="menu">
-	<ul>
-		<li class="logo"><img src="image/pend.ico" alt=""></li>
-		<li class="info"><a href="https://github.com/SeraphiMHR"><i class="fab fa-github-alt"></i>&nbsp;Github</a></li>
-		<li class="info"><a href="https://vk.com/seraphimhr"><i class="fab fa-vk"></i>&nbsp;Вконтакте</a></li>
-		<li><a href="index.html" class="about-btn"><span><i class="fas fa-home"></i></span></a></li>
-	</ul>
-</div>
-</header>
-<div class="inputs">
-	<ul>
-		<li><input type="text" value="0.05">&nbsp;dt</li>
-		<li><input type="text" value="1">&nbsp;m1</li>
-		<li><input type="text" value="100">&nbsp;l1</li>
-		<li><input type="text" value="0">&nbsp;v1</li>
-		<li><input type="text" value="70">&nbsp;a1</li>
-		<li><input type="text" value="1">&nbsp;m2</li>
-		<li><input type="text" value="100">&nbsp;l2</li>
-		<li><input type="text" value="0">&nbsp;v2</li>
-		<li><input type="text" value="45">&nbsp;a2</li>
-		<li><input type="button" id="start-btn" value="Старт"></li>
-	</ul>
-</div>
-<canvas id="canvas" width="800" height="800px"></canvas>
+	<div class="container">
+		<div class="menu">
+			<ul>
+				<li class="logo"><img src="image/pend.ico" alt=""></li>
+				<li class="info"><a href="https://github.com/SeraphiMHR"><i class="fab fa-github-alt"></i>&nbsp;Github</a></li>
+				<li class="info"><a href="https://vk.com/seraphimhr"><i class="fab fa-vk"></i>&nbsp;Вконтакте</a></li>
+				<li><a href="index.html" class="about-btn"><span><i class="fas fa-home"></i></span></a></li>
+			</ul>
+		</div>
+		<div class="inputs">
+			<ul>
+				<li><input type="text" value="0.05">&nbsp;dt</li>
+				<li><input type="text" value="1">&nbsp;m1</li>
+				<li><input type="text" value="100">&nbsp;l1</li>
+				<li><input type="text" value="0">&nbsp;v1</li>
+				<li><input type="text" value="70">&nbsp;a1</li>
+				<li><input type="text" value="1">&nbsp;m2</li>
+				<li><input type="text" value="100">&nbsp;l2</li>
+				<li><input type="text" value="0">&nbsp;v2</li>
+				<li><input type="text" value="45">&nbsp;a2</li>
+				<li><input type="button" id="start-btn" value="Старт"></li>
+			</ul>
+		</div>
+		<canvas id="canvas" width="800" height="800px"></canvas>
+	</div>
 <script>
 	var el = document.getElementById("start-btn");
 	el.addEventListener("click", start_button);
