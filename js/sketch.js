@@ -24,6 +24,9 @@ function initializeComponents() {
    v1 = inputs[3].value;
    v2 = inputs[7].value;
    dt = inputs[0].value;
+   if(isNaN(l1) || isNaN(l2) || isNaN(m2) || isNaN(m1) || isNaN(v2) || isNaN(v1) || isNaN(a2) || isNaN(a1) || isNaN(dt)){
+       alert("Вы заполнили неправильно поля для ввода данных!!!");
+   }
 }
 
 function accel_calculation() {
